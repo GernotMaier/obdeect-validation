@@ -1,0 +1,10 @@
+runs/
+out/
+*.bin
+*.log
+*.ecsv
+*.gz
+bench/
+perf/models/*.json
+__pycache__/
+.DS_Store

@@ -1,0 +1,9 @@
+{"label": "conc3_p0_r1", "rc": 0, "wall_s": 25.68, "user_s": 20.925, "sys_s": 1.089, "cpu_s": 22.014, "maxrss_mb": 226.1, "case": "concurrent_route", "input": "lsts01", "concurrent": 3, "rep": 1, "set_wall_s": 26.068}
+{"label": "conc3_p1_r1", "rc": 0, "wall_s": 25.686, "user_s": 21.245, "sys_s": 1.017, "cpu_s": 22.261, "maxrss_mb": 225.5, "case": "concurrent_route", "input": "lsts01", "concurrent": 3, "rep": 1, "set_wall_s": 26.068}
+{"label": "conc3_p2_r1", "rc": 0, "wall_s": 25.28, "user_s": 21.091, "sys_s": 1.065, "cpu_s": 22.156, "maxrss_mb": 226.1, "case": "concurrent_route", "input": "lsts01", "concurrent": 3, "rep": 1, "set_wall_s": 26.068}
+{"label": "conc3_p0_r2", "rc": 0, "wall_s": 25.726, "user_s": 20.849, "sys_s": 0.98, "cpu_s": 21.829, "maxrss_mb": 225.5, "case": "concurrent_route", "input": "lsts01", "concurrent": 3, "rep": 2, "set_wall_s": 26.331}
+{"label": "conc3_p1_r2", "rc": 0, "wall_s": 25.706, "user_s": 20.853, "sys_s": 0.935, "cpu_s": 21.788, "maxrss_mb": 225.8, "case": "concurrent_route", "input": "lsts01", "concurrent": 3, "rep": 2, "set_wall_s": 26.331}
+{"label": "conc3_p2_r2", "rc": 0, "wall_s": 26.283, "user_s": 21.325, "sys_s": 1.061, "cpu_s": 22.386, "maxrss_mb": 225.9, "case": "concurrent_route", "input": "lsts01", "concurrent": 3, "rep": 2, "set_wall_s": 26.331}
+{"label": "conc3_p0_r3", "rc": 0, "wall_s": 25.795, "user_s": 20.945, "sys_s": 0.902, "cpu_s": 21.847, "maxrss_mb": 225.9, "case": "concurrent_route", "input": "lsts01", "concurrent": 3, "rep": 3, "set_wall_s": 25.845}
+{"label": "conc3_p1_r3", "rc": 0, "wall_s": 25.795, "user_s": 20.905, "sys_s": 0.953, "cpu_s": 21.858, "maxrss_mb": 229.6, "case": "concurrent_route", "input": "lsts01", "concurrent": 3, "rep": 3, "set_wall_s": 25.845}
+{"label": "conc3_p2_r3", "rc": 0, "wall_s": 25.793, "user_s": 20.813, "sys_s": 1.0, "cpu_s": 21.813, "maxrss_mb": 229.7, "case": "concurrent_route", "input": "lsts01", "concurrent": 3, "rep": 3, "set_wall_s": 25.845}

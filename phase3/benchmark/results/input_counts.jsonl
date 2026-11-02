@@ -1,0 +1,2 @@
+{"file": "input/lsts01/corsika/run000001/gamma_run000001_za20deg_azm000deg_South_LSTS-01_7.0.0_bench_lsts01_corsika50.corsika.zst", "events": 50, "iact_data_blocks": 500, "bunches": 8214626, "photons": 40651294}
+{"file": "input/msts04/corsika/run000001/gamma_run000001_za20deg_azm000deg_South_MSTS-04_7.0.0_bench_msts04_corsika50.corsika.zst", "events": 50, "iact_data_blocks": 500, "bunches": 3896875, "photons": 19281489}

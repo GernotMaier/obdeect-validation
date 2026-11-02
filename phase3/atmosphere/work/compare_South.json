@@ -1,0 +1,21 @@
+{
+  "site": "South",
+  "table": "OBS-South/atmospheric_transmission-1.0.0",
+  "observatory_level_m": 2147.0,
+  "n_cells": 964404,
+  "max_abs_diff": {
+    "value": 0.00038412712710331063,
+    "zenith_deg": 0.0,
+    "wavelength_nm": 281,
+    "emission_altitude_km": 22.047,
+    "sim_telarray": 0.0,
+    "simtools": 0.00038412712710331063
+  },
+  "n_cells_above_0p1_percent": 0,
+  "max_abs_diff_complete_wavelengths": 1.5543122344752192e-15,
+  "max_abs_diff_incomplete_wavelengths": 0.00038412712710331063,
+  "n_incomplete_wavelengths": 91,
+  "n_cells_sim_zero_simtools_above_1e-3": 0,
+  "max_abs_diff_where_simtools_above_1e-2": 1.5543122344752192e-15,
+  "max_rel_diff_where_simtools_above_1e-2": 3.8231484535367366e-14
+}

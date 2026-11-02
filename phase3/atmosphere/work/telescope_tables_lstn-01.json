@@ -1,0 +1,16 @@
+{
+  "telescope": "LSTN-01",
+  "ztel_m": 45.0,
+  "pathlen_m": 28.0,
+  "n_table_cells": 92916,
+  "max_abs_diff_table_vs_c": 0.0,
+  "argmax_table_vs_c": {
+    "wavelength_nm": 200,
+    "emission_m": 2156.0,
+    "airmass": 1.0,
+    "c": 0.6792840738876821,
+    "table": 0.6792840738876821
+  },
+  "gate_1e-3": true,
+  "max_abs_path_term_effect": 0.10873539979279356
+}

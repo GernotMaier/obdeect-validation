@@ -1,0 +1,1 @@
+{"label": "profile_lsts01", "rc": 0, "wall_s": 26.986, "user_s": 21.884, "sys_s": 1.441, "cpu_s": 23.325, "maxrss_mb": 231.8, "case": "route_cprofile", "input": "lsts01", "threads": 1, "rep": 1, "output_mb": 463.59}

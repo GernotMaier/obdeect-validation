@@ -1,0 +1,3 @@
+{"label": "conc1_p0_r1", "rc": 0, "wall_s": 24.526, "user_s": 20.039, "sys_s": 1.293, "cpu_s": 21.332, "maxrss_mb": 225.7, "case": "concurrent_route", "input": "lsts01", "concurrent": 1, "rep": 1, "set_wall_s": 25.058}
+{"label": "conc1_p0_r2", "rc": 0, "wall_s": 24.452, "user_s": 20.214, "sys_s": 1.098, "cpu_s": 21.313, "maxrss_mb": 226.8, "case": "concurrent_route", "input": "lsts01", "concurrent": 1, "rep": 2, "set_wall_s": 24.491}
+{"label": "conc1_p0_r3", "rc": 0, "wall_s": 24.19, "user_s": 19.908, "sys_s": 1.14, "cpu_s": 21.048, "maxrss_mb": 225.6, "case": "concurrent_route", "input": "lsts01", "concurrent": 1, "rep": 3, "set_wall_s": 24.232}

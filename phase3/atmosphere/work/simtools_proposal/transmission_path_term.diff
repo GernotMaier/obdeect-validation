@@ -1,0 +1,37 @@
+--- transmission_orig.py	2026-11-01 20:40:02
++++ transmission_patched.py	2026-11-01 20:40:02
+@@ -45,19 +45,28 @@
+         log_altitude, depth = self._profiles[int(np.clip(row, 0, len(self._wavelength) - 1))]
+         return np.interp(np.log(np.asarray(altitude_m, dtype=float)), log_altitude, depth)
+ 
+-    def transmission(self, wavelength_nm, emission_altitude_m, telescope_altitude_m, airmass):
++    def transmission(
++        self, wavelength_nm, emission_altitude_m, telescope_altitude_m, airmass, pathlen_m=0.0
++    ):
+         """
+         Transmission from the emission point to the telescope along a slant path.
+ 
+-        The vertical optical depth between the two altitudes times the airmass,
+-        without instrument terms. Emission below the observation level is not
+-        transmitted.
++        The vertical optical depth between the two altitudes times the airmass.
++        With ``pathlen_m`` the sim_telarray instrument path is added: the optical depth
++        between the telescope altitude and the telescope altitude plus the path length,
++        without airmass factor (sim_absorb.c:785, sim_telarray.c:1866-1868). Emission
++        below the observation level is not transmitted.
+         """
+         depth = np.abs(
+             self.optical_depth(wavelength_nm, emission_altitude_m)
+             - self.optical_depth(wavelength_nm, telescope_altitude_m)
+-        )
+-        transmitted = np.exp(-depth * np.asarray(airmass))
++        ) * np.asarray(airmass)
++        if pathlen_m:
++            depth = depth + (
++                self.optical_depth(wavelength_nm, telescope_altitude_m + pathlen_m)
++                - self.optical_depth(wavelength_nm, telescope_altitude_m)
++            )
++        transmitted = np.exp(-depth)
+         return np.where(
+             np.asarray(emission_altitude_m) < self.observation_level_m, 0.0, transmitted
+         )

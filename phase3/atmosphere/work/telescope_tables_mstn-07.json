@@ -1,0 +1,16 @@
+{
+  "telescope": "MSTN-07",
+  "ztel_m": 65.0,
+  "pathlen_m": 16.0,
+  "n_table_cells": 92916,
+  "max_abs_diff_table_vs_c": 0.0,
+  "argmax_table_vs_c": {
+    "wavelength_nm": 200,
+    "emission_m": 2156.0,
+    "airmass": 1.0,
+    "c": 0.6513083263996612,
+    "table": 0.6513083263996612
+  },
+  "gate_1e-3": true,
+  "max_abs_path_term_effect": 0.057445728559108455
+}

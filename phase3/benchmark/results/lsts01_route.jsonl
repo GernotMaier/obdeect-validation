@@ -1,0 +1,12 @@
+{"label": "route_lsts01_t1_r1", "rc": 0, "wall_s": 29.84, "user_s": 21.989, "sys_s": 1.476, "cpu_s": 23.465, "maxrss_mb": 216.6, "case": "route", "input": "lsts01", "threads": 1, "rep": 1, "output_mb": 463.59}
+{"label": "route_lsts01_t1_r2", "rc": 0, "wall_s": 25.989, "user_s": 20.965, "sys_s": 1.317, "cpu_s": 22.282, "maxrss_mb": 225.5, "case": "route", "input": "lsts01", "threads": 1, "rep": 2, "output_mb": 463.59}
+{"label": "route_lsts01_t1_r3", "rc": 0, "wall_s": 27.005, "user_s": 21.989, "sys_s": 1.405, "cpu_s": 23.395, "maxrss_mb": 229.9, "case": "route", "input": "lsts01", "threads": 1, "rep": 3, "output_mb": 463.59}
+{"label": "route_lsts01_t2_r1", "rc": 0, "wall_s": 21.917, "user_s": 20.572, "sys_s": 1.819, "cpu_s": 22.391, "maxrss_mb": 226.0, "case": "route", "input": "lsts01", "threads": 2, "rep": 1, "output_mb": 463.59}
+{"label": "route_lsts01_t2_r2", "rc": 0, "wall_s": 21.581, "user_s": 20.451, "sys_s": 1.77, "cpu_s": 22.22, "maxrss_mb": 225.9, "case": "route", "input": "lsts01", "threads": 2, "rep": 2, "output_mb": 463.59}
+{"label": "route_lsts01_t2_r3", "rc": 0, "wall_s": 21.742, "user_s": 20.688, "sys_s": 1.648, "cpu_s": 22.335, "maxrss_mb": 230.0, "case": "route", "input": "lsts01", "threads": 2, "rep": 3, "output_mb": 463.59}
+{"label": "route_lsts01_t4_r1", "rc": 0, "wall_s": 19.803, "user_s": 20.568, "sys_s": 1.783, "cpu_s": 22.351, "maxrss_mb": 225.8, "case": "route", "input": "lsts01", "threads": 4, "rep": 1, "output_mb": 463.59}
+{"label": "route_lsts01_t4_r2", "rc": 0, "wall_s": 19.687, "user_s": 20.613, "sys_s": 1.745, "cpu_s": 22.359, "maxrss_mb": 226.0, "case": "route", "input": "lsts01", "threads": 4, "rep": 2, "output_mb": 463.59}
+{"label": "route_lsts01_t4_r3", "rc": 0, "wall_s": 19.668, "user_s": 20.419, "sys_s": 1.715, "cpu_s": 22.135, "maxrss_mb": 225.5, "case": "route", "input": "lsts01", "threads": 4, "rep": 3, "output_mb": 463.59}
+{"label": "route_lsts01_t6_r1", "rc": 0, "wall_s": 19.413, "user_s": 20.98, "sys_s": 1.836, "cpu_s": 22.816, "maxrss_mb": 226.2, "case": "route", "input": "lsts01", "threads": 6, "rep": 1, "output_mb": 463.59}
+{"label": "route_lsts01_t6_r2", "rc": 0, "wall_s": 19.564, "user_s": 20.926, "sys_s": 1.786, "cpu_s": 22.712, "maxrss_mb": 226.5, "case": "route", "input": "lsts01", "threads": 6, "rep": 2, "output_mb": 463.59}
+{"label": "route_lsts01_t6_r3", "rc": 0, "wall_s": 19.489, "user_s": 20.613, "sys_s": 1.899, "cpu_s": 22.513, "maxrss_mb": 225.7, "case": "route", "input": "lsts01", "threads": 6, "rep": 3, "output_mb": 463.59}

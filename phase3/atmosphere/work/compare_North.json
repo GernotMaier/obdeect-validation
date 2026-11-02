@@ -1,0 +1,21 @@
+{
+  "site": "North",
+  "table": "OBS-North/atmospheric_transmission-2.0.0",
+  "observatory_level_m": 2156.0,
+  "n_cells": 964404,
+  "max_abs_diff": {
+    "value": 0.0003880598413305049,
+    "zenith_deg": 0.0,
+    "wavelength_nm": 272,
+    "emission_altitude_km": 18.056,
+    "sim_telarray": 0.0,
+    "simtools": 0.0003880598413305049
+  },
+  "n_cells_above_0p1_percent": 0,
+  "max_abs_diff_complete_wavelengths": 1.6653345369377348e-15,
+  "max_abs_diff_incomplete_wavelengths": 0.0003880598413305049,
+  "n_incomplete_wavelengths": 91,
+  "n_cells_sim_zero_simtools_above_1e-3": 0,
+  "max_abs_diff_where_simtools_above_1e-2": 2.609024107869118e-15,
+  "max_rel_diff_where_simtools_above_1e-2": 3.551421339566469e-14
+}

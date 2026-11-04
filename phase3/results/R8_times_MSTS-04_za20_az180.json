@@ -1,0 +1,15 @@
+{
+ "point": "/workdir/external/obdeect-validation/phase3/work/MSTS-04_za20_az180",
+ "route_tag": "r8",
+ "native_seed": "4242",
+ "n_matched_events": 446,
+ "mean_dt_ns": -0.02901490750810879,
+ "sd_dt_ns": 0.3152925326836892,
+ "sem_dt_ns": 0.014929534124065912,
+ "median_dt_ns": -0.04017095184159558,
+ "min_dt_ns": -1.7175535320799042,
+ "max_dt_ns": 1.6181087091746917,
+ "n_abs_dt_gt_0p2ns": 153,
+ "ks_pooled_pe_D": 0.002873342479201124,
+ "ks_pooled_pe_p": 0.0228994504364754
+}

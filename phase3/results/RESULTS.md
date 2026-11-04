@@ -1,5 +1,14 @@
 # obdeect route vs native sim_telarray, by zenith (phase 3, P9 / R6)
 
+## Current status (R6 rerun, 2026-11-03)
+
+- The full matrix was rerun with the current code: 4 telescopes x 20/40/60 deg, 12 cells (South 40 deg was missing
+  in the earlier results and is now run). All 12 cells pass the plan acceptance: total p.e. within 1 % and 3 sigma,
+  KS p >= 0.023, |mean dt| <= 0.030 ns, pixel correlation within 0.0038 of the native seed pair, determinism identical.
+  Details: `RESULTS-R6.md`; table: `summary_table.md`; raw: `R6_<TEL>_za<ZA>.json`.
+- The sections below are the earlier run (before the R19 fix), kept for reference. The pixel gate in them
+  (correlation > 0.99) is superseded by the native-control gate.
+
 Summary:
 - **20 deg passes.** Total photo-electrons (p.e.) of the route agree with native within 0.4 % for all four telescopes.
 - **40 and 60 deg failed in this run** (route/native 1.07-1.08 and 1.33-1.39). Cause (R19): with `Bypass_Optics=1`

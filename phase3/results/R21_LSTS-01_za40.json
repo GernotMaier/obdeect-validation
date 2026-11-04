@@ -1,0 +1,19 @@
+{
+ "point": "/workdir/external/obdeect-validation/phase3/work/LSTS-01_za40",
+ "route": {
+  "events": 500,
+  "telescope_events_pe_block": 500,
+  "telescope_events_with_pixel_list": 500,
+  "events_with_pixel_list": 500,
+  "telescope_events_without_pixel_list": 0
+ },
+ "native": {
+  "events": 500,
+  "telescope_events_pe_block": 500,
+  "telescope_events_with_pixel_list": 500,
+  "events_with_pixel_list": 500,
+  "telescope_events_without_pixel_list": 0
+ },
+ "route_pixel_list_fraction": 1.0,
+ "pass_every_telescope_event_has_pixel_list": true
+}

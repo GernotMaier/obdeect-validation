@@ -1,5 +1,29 @@
 # Route vs native, per point
 
+## R6 rerun, 2026-11-03 (current code, all 12 cells; details in RESULTS-R6.md)
+
+All 12 cells pass: total p.e. within 1 % and 3 sigma (route/native 0.9988-1.0047, |z| <= 1.47); KS p >= 0.023;
+|mean time difference| <= 0.030 ns; route-vs-native pixel correlation within 0.0038 of the native seed pair; determinism
+pass. Per-cell files: `R6_<TEL>_za<ZA>.json`; pixel-list counts `R21_<TEL>_za<ZA>.json`.
+
+| telescope | zenith | native mean [p.e.] | route [p.e.] | route/native | sigma [%] | (ratio-1)/sigma | 1 % | 3 sigma | KS p (per-p.e.) | mean dt [ns] +- SEM | pixel corr route (native seed pair) | route - control | matched events |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| LSTS-01 | 20 | 1678606 | 1677207 | 0.9992 | 0.23 | -0.37 | pass | pass | 0.023 | -0.017 +- 0.006 | 0.9733 (0.9700) | +0.0033 | 492 |
+| MSTS-04 | 20 | 603210 | 603711 | 1.0008 | 0.20 | +0.42 | pass | pass | 0.210 | -0.024 +- 0.015 | 0.9559 (0.9574) | -0.0015 | 438 |
+| LSTN-01 | 20 | 1461848 | 1461028 | 0.9994 | 0.20 | -0.28 | pass | pass | 0.588 | -0.020 +- 0.008 | 0.9657 (0.9623) | +0.0034 | 488 |
+| MSTN-07 | 20 | 379051 | 379875 | 1.0022 | 0.18 | +1.18 | pass | pass | 0.638 | -0.025 +- 0.021 | 0.9516 (0.9502) | +0.0014 | 299 |
+| LSTS-01 | 40 | 1196284 | 1197360 | 1.0009 | 0.21 | +0.42 | pass | pass | 0.506 | -0.021 +- 0.004 | 0.9811 (0.9779) | +0.0031 | 500 |
+| MSTS-04 | 40 | 406894 | 406417 | 0.9988 | 0.32 | -0.37 | pass | pass | 0.079 | -0.027 +- 0.015 | 0.9697 (0.9694) | +0.0002 | 491 |
+| LSTN-01 | 40 | 1061542 | 1062029 | 1.0005 | 0.18 | +0.26 | pass | pass | 0.313 | -0.026 +- 0.006 | 0.9737 (0.9702) | +0.0035 | 500 |
+| MSTN-07 | 40 | 264967 | 265766 | 1.0030 | 0.21 | +1.47 | pass | pass | 0.586 | +0.018 +- 0.020 | 0.9573 (0.9584) | -0.0011 | 352 |
+| LSTS-01 | 60 | 390241 | 390761 | 1.0013 | 0.39 | +0.34 | pass | pass | 0.219 | -0.017 +- 0.006 | 0.9901 (0.9874) | +0.0027 | 500 |
+| MSTS-04 | 60 | 134511 | 135149 | 1.0047 | 0.32 | +1.46 | pass | pass | 0.632 | -0.030 +- 0.012 | 0.9872 (0.9861) | +0.0011 | 500 |
+| LSTN-01 | 60 | 325837 | 325495 | 0.9990 | 0.42 | -0.25 | pass | pass | 0.902 | -0.016 +- 0.009 | 0.9811 (0.9773) | +0.0038 | 500 |
+| MSTN-07 | 60 | 95094 | 95157 | 1.0007 | 0.44 | +0.15 | pass | pass | 0.490 | -0.017 +- 0.023 | 0.9715 (0.9707) | +0.0008 | 386 |
+
+## Earlier run (before R19 and R21 fixes; kept for reference)
+
+
 20 deg passes; 40/60 deg fail from too little atmospheric absorption in the route (R19, fix in progress; see RESULTS.md).
 Pixel correlation equals the native-vs-native control, so it does not separate route from native.
 Determinism: bunch files and p.e. content identical for all points.

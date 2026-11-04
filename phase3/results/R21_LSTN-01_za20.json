@@ -1,0 +1,19 @@
+{
+ "point": "/workdir/external/obdeect-validation/phase3/work/LSTN-01_za20",
+ "route": {
+  "events": 488,
+  "telescope_events_pe_block": 488,
+  "telescope_events_with_pixel_list": 488,
+  "events_with_pixel_list": 488,
+  "telescope_events_without_pixel_list": 0
+ },
+ "native": {
+  "events": 491,
+  "telescope_events_pe_block": 491,
+  "telescope_events_with_pixel_list": 491,
+  "events_with_pixel_list": 491,
+  "telescope_events_without_pixel_list": 0
+ },
+ "route_pixel_list_fraction": 1.0,
+ "pass_every_telescope_event_has_pixel_list": true
+}

@@ -1,0 +1,12 @@
+{
+ "point": "/workdir/external/obdeect-validation/phase3/work/MSTS-04_za20_az90",
+ "seeds": [
+  "4242",
+  "4243"
+ ],
+ "n_matched_events": 443,
+ "mean_dt_ns": -0.02761719883192407,
+ "sd_dt_ns": 0.34653791160883013,
+ "sem_dt_ns": 0.01646451305163808,
+ "n_abs_dt_gt_0p2ns": 147
+}
